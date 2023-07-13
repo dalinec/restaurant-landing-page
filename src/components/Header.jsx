@@ -7,11 +7,11 @@ import { staggerContainer, fadeIn } from '../variants';
 
 const headerVariants = {
   hidden: {
-    padding: '84px 0 84px 0',
+    padding: '84px 0',
     background: 'none',
   },
   show: {
-    padding: '14px 0 14px 0',
+    padding: '14px 0',
     background: 'rgba(0,0,0,0.92)',
     transition: {
       type: 'spring',
