@@ -6,7 +6,7 @@ import MenuItem from './MenuItem';
 const Menu = () => {
   const { title, subtitle, modelImg, menuItems, btnText } = menuData;
   return (
-    <section className='min-h-[1280px]'>
+    <section className='min-h-[790px]'>
       {/* background */}
       <div className='h-[780px] bg-menu absolute w-full max-w-[1800px] -z-0'></div>
       {/* text */}
@@ -61,11 +61,14 @@ const Menu = () => {
                 {
                   const { image, name, price, description } = item;
                   return (
-                    <div className='flex flex-row lg:flex-col h-full'>
+                    <div
+                      key={index}
+                      className='flex flex-col h-full items-center'
+                    >
                       {/* img */}
                       {/* reverse order */}
                       <div
-                        className={`w-[45%] md:w-auto ${
+                        className={`w-auto ${
                           index === 1 || index === 3
                             ? 'lg:order-1'
                             : 'order-none'
@@ -74,7 +77,7 @@ const Menu = () => {
                         <img src={image} alt={name} />
                       </div>
                       {/* text */}
-                      <div className='bg-[#fff3e4] flex flex-1 flex-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max'>
+                      <div className='bg-[#fff3e4] flex flex-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max mb-5 lg:mb-0 max-w-[300px]'>
                         <div className='text-center'>
                           <div className='text-xl font-semibold text-dark xl:text-2xl'>
                             {name}
