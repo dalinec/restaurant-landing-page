@@ -15,6 +15,9 @@ import ModelWhiteImg from '../src/assets/model-white.png';
 import ModelBlackImg from '../src/assets/model-black.png';
 import SignatureImg from '../src/assets/team/signature.png';
 import ChefImg from '../src/assets/team/chef.png';
+import Avatar1 from '../src/assets/testimonial/avatar1.png';
+import Avatar2 from '../src/assets/testimonial/avatar2.png';
+import Avatar3 from '../src/assets/testimonial/avatar3.png';
 
 export const heroData = {
   pretitle: 'Nothing brings together like',
@@ -93,4 +96,33 @@ export const teamData = {
   occupation: 'executive chef',
   signatureImg: SignatureImg,
   chefImg: ChefImg,
+};
+
+export const testimonialData = {
+  title: "what client's say ",
+  subtitle: '1500+ statisfied clients',
+  modelImg: ModelWhiteImg,
+  slider: [
+    {
+      message:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+      image: Avatar1,
+      name: 'Rick Thompson',
+      occupation: 'CEO of Delightful',
+    },
+    {
+      message:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+      image: Avatar2,
+      name: 'John Doe',
+      occupation: 'CEO of Delightful',
+    },
+    {
+      message:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+      image: Avatar3,
+      name: 'Henry A.',
+      occupation: 'CEO of Delightful',
+    },
+  ],
 };

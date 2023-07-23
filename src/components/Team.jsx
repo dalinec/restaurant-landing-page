@@ -14,7 +14,7 @@ function Team() {
     chefImg,
   } = teamData;
   return (
-    <section className='relative top-96 z-10 lg:top-[480px] min-h-[1280px]'>
+    <section className='relative top-96 z-10 lg:top-[480px] min-h-[790px]'>
       <div className='container mx-auto'>
         {/* text and img wrapper */}
         <div className='flex flex-col lg:flex-row gap-x-[120px] items-center lg:items-start'>

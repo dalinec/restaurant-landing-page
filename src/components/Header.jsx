@@ -56,7 +56,7 @@ const Header = () => {
       variants={headerVariants}
       initial='hidden'
       animate={isActive ? 'show' : ''}
-      className='bg-pink-200/20 fixed w-full max-w-[1800px] z-50 py-4'
+      className=' fixed w-full max-w-[1800px] z-50 py-4'
     >
       <motion.div
         variants={staggerContainer(0.3, 1)}
@@ -83,7 +83,10 @@ const Header = () => {
               className='w-full h-[2px] bg-white'
             ></motion.div>
           </motion.div>
-          <motion.div variants={fadeIn('down', 'tween', 1.2, 1.4)}>
+          <motion.div
+            variants={fadeIn('down', 'tween', 1.2, 1.4)}
+            className='order-1 lg:order-none lg:ml-[11rem]'
+          >
             <a href='#'>
               <img
                 className={`${
