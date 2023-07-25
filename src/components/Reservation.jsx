@@ -16,7 +16,7 @@ const Reservation = () => {
   const [value, setValue] = useState('10:00');
 
   return (
-    <section className='relative top-96 z-30 pb-20 lg:py-[100px] h-[1200px]'>
+    <section className=' z-30 pb-20 pt-[350px] lg:pt-[400px] h-[1020px] lg:h-[860px]'>
       <div className='container mx-auto'>
         {/* text */}
         <motion.div

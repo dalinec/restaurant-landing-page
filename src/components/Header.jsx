@@ -56,7 +56,7 @@ const Header = () => {
       variants={headerVariants}
       initial='hidden'
       animate={isActive ? 'show' : ''}
-      className=' fixed w-full max-w-[1800px] z-50 py-4'
+      className=' fixed w-full  z-50 py-4'
     >
       <motion.div
         variants={staggerContainer(0.3, 1)}

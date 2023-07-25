@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <section className='min-h-[790px]'>
       {/* background */}
-      <div className='h-[780px] bg-menu absolute w-full max-w-[1800px] -z-0'></div>
+      <div className='h-[780px] bg-menu absolute w-full -z-0'></div>
       {/* text */}
       <div className='relative z-10 top-72 lg:top-52'>
         <motion.div
@@ -77,7 +77,7 @@ const Menu = () => {
                         <img src={image} alt={name} />
                       </div>
                       {/* text */}
-                      <div className='bg-[#fff3e4] flex flex-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max mb-5 lg:mb-0 max-w-[300px]'>
+                      <div className='bg-[#fff3e4] flex flex-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max lg:mb-0 max-w-[300px]'>
                         <div className='text-center'>
                           <div className='text-xl font-semibold text-dark xl:text-2xl'>
                             {name}
